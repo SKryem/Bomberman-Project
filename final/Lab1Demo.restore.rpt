@@ -1,0 +1,165 @@
+Restore Archived Project report for Lab1Demo
+Sun Oct 22 15:13:58 2023
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Sun Oct 22 15:13:58 2023 ;
+; Revision Name                   ; Lab1Demo                              ;
+; Top-level Entity Name           ; TOP_VGA_DEMO_KBD_proj                 ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/WIN10/Downloads/project_final(1).qar' into the 'C:\\Users\\WIN10\\OneDrive - Technion(1)\\courses\\EE_lab1A\\Final Project\\final/' directory
+Info: Generated report 'Lab1Demo.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/17.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4821 megabytes
+    Info: Processing ended: Sun Oct 22 15:13:59 2023
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++------------------------------------------------------------+
+; Files Restored                                             ;
++------------------------------------------------------------+
+; File Name                                                  ;
++------------------------------------------------------------+
+; qar_info.json                                              ;
+; CLK_31P5.cmp                                               ;
+; CLK_31P5.qip                                               ;
+; CLK_31P5.sip                                               ;
+; CLK_31P5.spd                                               ;
+; CLK_31P5.v                                                 ;
+; CLK_31P5/CLK_31P5_0002.qip                                 ;
+; CLK_31P5/CLK_31P5_0002.v                                   ;
+; CLK_31P5_sim/CLK_31P5.vo                                   ;
+; DE10_Standard_Audio.sdc                                    ;
+; Lab1Demo.qpf                                               ;
+; Lab1Demo.qsf                                               ;
+; Lab1Demo_assignment_defaults.qdf                           ;
+; Number_position.bsf                                        ;
+; Number_position.qip                                        ;
+; Number_position.v                                          ;
+; Number_position_bb.v                                       ;
+; RTL/AUDIO/AUDIO.bdf                                        ;
+; RTL/AUDIO/SinTable.sv                                      ;
+; RTL/AUDIO/TOP_AUDIO.bdf                                    ;
+; RTL/AUDIO/ToneDecoder.sv                                   ;
+; RTL/AUDIO/addr_counter.sv                                  ;
+; RTL/AUDIO/audio_codec_controller/DualSerial2parallel.sv    ;
+; RTL/AUDIO/audio_codec_controller/audio_codec_controller.sv ;
+; RTL/AUDIO/audio_codec_controller/clock_500.sv              ;
+; RTL/AUDIO/audio_codec_controller/i2c.sv                    ;
+; RTL/AUDIO/prescaler.sv                                     ;
+; RTL/KEYBOARDX/KBDINTF.bdf                                  ;
+; RTL/KEYBOARDX/TOP_KBD.bdf                                  ;
+; RTL/KEYBOARDX/bitrec.sv                                    ;
+; RTL/KEYBOARDX/byterec.sv                                   ;
+; RTL/KEYBOARDX/keyPad_decoder.sv                            ;
+; RTL/KEYBOARDX/lpf.sv                                       ;
+; RTL/KEYBOARDX/random.sv                                    ;
+; RTL/KEYBOARDX/simple_up_counter.sv                         ;
+; RTL/Seg7/SEG7.SV                                           ;
+; RTL/VGA/Add_Bomb_Block_T.bdf                               ;
+; RTL/VGA/BOMB_DISPLAY2.bdf                                  ;
+; RTL/VGA/Boots_Block_T.bdf                                  ;
+; RTL/VGA/Character_Block_T.bdf                              ;
+; RTL/VGA/Explosion_DISPLAY.bdf                              ;
+; RTL/VGA/LIVES_NUM_DISPLAY.bdf                              ;
+; RTL/VGA/Life_Block_T.bdf                                   ;
+; RTL/VGA/NumbersBitMap.sv                                   ;
+; RTL/VGA/SCORE_DISPLAY.bdf                                  ;
+; RTL/VGA/TIMER_DISPLAY.bdf                                  ;
+; RTL/VGA/TOP_VGA_DEMO_KBD.bdf                               ;
+; RTL/VGA/TOP_VGA_DEMO_KBD_proj.bdf                          ;
+; RTL/VGA/VGA_Controller.sv                                  ;
+; RTL/VGA/addBombBitMap.sv                                   ;
+; RTL/VGA/bcddn.sv                                           ;
+; RTL/VGA/bombMatrixBitMap.sv                                ;
+; RTL/VGA/bootsBitMap.sv                                     ;
+; RTL/VGA/characterBitMap.sv                                 ;
+; RTL/VGA/character_move.sv                                  ;
+; RTL/VGA/clock_divider.sv                                   ;
+; RTL/VGA/down_counter.sv                                    ;
+; RTL/VGA/explosionMatrixBitMap.sv                           ;
+; RTL/VGA/explosionMineMatrixBitMap.sv                       ;
+; RTL/VGA/explosion_mine_DISPLAY.bdf                         ;
+; RTL/VGA/game_controller.sv                                 ;
+; RTL/VGA/game_over.sv                                       ;
+; RTL/VGA/landMineMatrixBitMap.sv                            ;
+; RTL/VGA/land_mine_DISPLAY.bdf                              ;
+; RTL/VGA/lifeBitMap.sv                                      ;
+; RTL/VGA/lives_controller.sv                                ;
+; RTL/VGA/objects_mux.sv                                     ;
+; RTL/VGA/one_sec_counter.sv                                 ;
+; RTL/VGA/quarter_sec_counter.sv                             ;
+; RTL/VGA/rounded_square_object.sv                           ;
+; RTL/VGA/score_controller.sv                                ;
+; RTL/VGA/song_generator.sv                                  ;
+; RTL/VGA/square_object.sv                                   ;
+; RTL/VGA/square_object_const_position.sv                    ;
+; RTL/VGA/valX.bsf                                           ;
+; RTL/VGA/valX.qip                                           ;
+; RTL/VGA/valX.v                                             ;
+; RTL/VGA/valX_bb.v                                          ;
+; RTL/VGA/valX_inst.v                                        ;
+; RTL/VGA/wallMatrixBitMap.sv                                ;
+; RTL/VGA/wall_DISPLAY.bdf                                   ;
+; RTL/VGA_BG.mif                                             ;
+; assignment_defaults.qdf                                    ;
+; constraints/DE10_Standard_Audio.sdc                        ;
+; constraints/pin.tcl                                        ;
+; db/stp1_auto_stripped.stp                                  ;
+; output_files/Chain1.cdf                                    ;
+; output_files/Chain2.cdf                                    ;
+; output_files/Waveform.vwf                                  ;
+; output_files/stp3.stp                                      ;
+; stp1.stp                                                   ;
++------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
